@@ -2,25 +2,37 @@
 <html>
     <head>
         <title>
-            Hotel Avenida
+            Hotel Zamaros
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css"
     </head>
     <body>
         <header>
-            <h1>Hotel Zamaros</h1>
-            <img src="img/logo.jpg" width="80px"
-            <nav>
-                <ul class="topnav">
-                    <li><a class="active" href="s">Inicio</a></li>
-                    <li><a class="active" href="s">Reservas</a></li>
-                    <li><a class="active" href="s">Habitaciones</a></li>
-                    <li><a class="active" href="s">Ofertas</a></li>
-                    <li><a class="active" href="s">Servicios</a></li>
-                </ul>
-                
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--clase que indica el tamaño a ocupar en la pagina-->
+                <div class="container-fluid"><!--tipo de contenedor-->
+                  <a class="navbar-brand" href="#">Hotel Zamaros </a><!--indica el estilo del nombre del hotel-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><!--esta clase indica el estilo del menu responsivo-->
+                    <span class="navbar-toggler-icon"></span><!--esta clase es dada al lapso del menu responsivo-->
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav"><!--indica el estilo del contenedor-->
+                    <ul class="navbar-nav"><!--indica el estilo del link-->
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Habitaciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Reserva</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <hr>
         <section>
